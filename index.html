@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesia National Job Expo 2025</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F7F7F7;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #6201F8;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        header img {
+            max-width: 50px; /* Ukuran logo */
+            height: auto;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #6201F8, #1A1A4C);
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        .cta {
+            margin-top: 30px;
+        }
+        .cta a {
+            text-decoration: none;
+            background-color: #F7CE00;
+            color: #1A1A4C;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta a:hover {
+            background-color: #E5BA00;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            background-color: #F7F7F7;
+        }
+        .feature {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 300px;
+            flex: 1;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        .feature h2 {
+            color: #6201F8;
+            margin-bottom: 10px;
+        }
+        .company-logos {
+            background-color: #FFF;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .company-logos h2 {
+            color: #1A1A4C;
+            margin-bottom: 20px;
+        }
+        .logo-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .logo-container img {
+            max-width: 100px;
+            height: auto;
+            transition: transform 0.3s;
+        }
+        .logo-container img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #1A1A4C;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        .scroll-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #6201F8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: none;
+            transition: opacity 0.3s;
+        }
+        .scroll-top.show {
+            display: block;
+            opacity: 1;
+        }
+    </style>
+    <script>
+        window.addEventListener('scroll', function() {
+            const scrollTopButton = document.getElementById('scrollTopButton');
+            if (window.scrollY > 300) {
+                scrollTopButton.classList.add('show');
+            } else {
+                scrollTopButton.classList.remove('show');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <img src="path/to/dealls logo.png"> <!-- Update with the correct path to your logo -->
+    <h1>Indonesia National Job Expo 2025</h1>
+    <p>1.800+ Loker Jalur Cepat • 500 Perusahaan • 20 Company Sessions</p>
+</header>
+
+<section class="hero">
+    <h1>INDONESIA’S LARGEST JOB EXPO</h1>
+    <p>Bangun karier impianmu dan temukan peluang terbaik di sini!</p>
+    <div class="cta">
+        <a href="#features">Daftar Sekarang</a>
+    </div>
+</section>
+
+<section id="features" class="features">
+    <div class="feature">
+        <h2>Direspons HR Lebih Cepat</h2>
+        <p>Temukan perusahaan yang aktif dan siap menjawab aplikasi Anda.</p>
+    </div>
+    <div class="feature">
+        <h2>Loker Terverifikasi</h2>
+        <p>Semua lowongan telah melalui proses verifikasi untuk memastikan keaslian.</p>
+    </div>
+    <div class="feature">
+        <h2>20+ Sesi Perusahaan</h2>
+        <p>Ikuti webinar dari perusahaan ternama untuk mendapatkan insight.</p>
+    </div>
+</section>
+
+<section class="company-logos">
+    <h2>Perusahaan Mitra</h2>
+    <div class="logo-container">
+        <img src="436c887d5e66cd4e3e644dffb213b9a0.jpg" alt="Company 1">
+        <img src="a5647ddf218b8787f12b46a4ba7175ca.jpg" alt="Company 2">
+        <img src="f0fe719993215210e9228543743f1c48.jpg" alt="Company 3">
+        <img src="Go Indonesia! Nih 15 Logo Perusahaan Indonesia Populer!.jpeg" alt="Company 4">
+        <img src="—Pngtree—company logo vector_8793712.png" alt="Company 5">
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Dealls – Jobs & Mentoring | All Rights Reserved</p>
+</footer>
+
+<button id="scrollTopButton" class="scroll-top" onclick="scrollToTop()">↑</button>
+
+</body>
+</html>
